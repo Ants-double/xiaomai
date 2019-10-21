@@ -12,9 +12,7 @@ namespace LandAddIn
         private void RibbonColor_Load(object sender, RibbonUIEventArgs e)
         {
 
-        }
-
-        
+        }        
 
         private void RangeRemoveColor_Click(object sender, RibbonControlEventArgs e)
         {
@@ -38,7 +36,6 @@ namespace LandAddIn
                     Range numRan = sheet.Cells[i, j];
                     numRan.Cells.Interior.Color = ((Range)sheet.Cells[rowLength + 5, colLength + 5]).Cells.Interior.Color; 
                 }
-
             }
         }
 
@@ -64,7 +61,6 @@ namespace LandAddIn
                     Range numRan = sheet.Cells[i, j];
                     numRan.Cells.Interior.Color = System.Drawing.Color.FromArgb(rd.Next(0, 255), rd.Next(0, 158), rd.Next(120, 255)).ToArgb();
                 }
-
             }
         }
     }
