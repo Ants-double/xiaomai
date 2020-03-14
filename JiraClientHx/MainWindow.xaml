@@ -12,10 +12,10 @@
         <Label Content="Sprint编号:" HorizontalAlignment="Left" Margin="125,97,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.556,0.115"/>
         <TextBox x:Name="sprintNumber" HorizontalAlignment="Left" Height="23" Margin="271,97,0,0" TextWrapping="Wrap" Text="71" VerticalAlignment="Top" Width="120"/>
         <Label Content="jira用户名:" HorizontalAlignment="Left" Margin="130,147,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="userName" HorizontalAlignment="Left" Height="23" Margin="271,147,0,0" TextWrapping="Wrap" Text="wx_liyangyang" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Left" Height="23" Margin="271,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="jira密码:"  HorizontalAlignment="Left" Margin="142,209,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.174,-0.059"/>
 
-        <PasswordBox x:Name="password" Password="Jira@123" Height="25" Width="200" HorizontalAlignment="Left" Margin="271,209,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="password" Password="" Height="25" Width="200" HorizontalAlignment="Left" Margin="271,209,0,0" VerticalAlignment="Top"/>
         <Label Content="接收结果的邮箱:" HorizontalAlignment="Left" Margin="100,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.052,0.068"/>
         <TextBox x:Name="email" HorizontalAlignment="Left" Height="23" Margin="271,274,0,0" TextWrapping="Wrap" Text="ants_double@yeah.net" VerticalAlignment="Top" Width="398"/>
         <Button x:Name="btnCreate" Content="开始创建任务" HorizontalAlignment="Left" Margin="196,331,0,0" VerticalAlignment="Top" Width="75" Click="btnCreate_Click"/>
